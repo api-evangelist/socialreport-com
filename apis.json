@@ -8,8 +8,8 @@
         "social",
         "social analytics"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/socialreport-com\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -23,13 +23,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/socialreport-com-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/socialreport-com\/master\/socialreport-com-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/socialreport-com\/master\/socialreport-com-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Blog RSS",
             "url": "http:\/\/www.socialreport.com\/blog\/feed\/"
